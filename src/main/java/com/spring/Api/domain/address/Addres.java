@@ -2,8 +2,6 @@ package com.spring.Api.domain.address;
 
 import java.util.UUID;
 
-
-
 import com.spring.Api.domain.event.Event;
 
 import jakarta.persistence.Entity;
