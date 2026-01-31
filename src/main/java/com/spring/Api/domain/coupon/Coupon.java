@@ -3,7 +3,7 @@ package com.spring.Api.domain.coupon;
 import java.sql.Date;
 import java.util.UUID;
 
-import com.spring.Api.domain.event.Event;
+import com.spring.Api.domain.event.Events;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -33,5 +33,5 @@ public class Coupon {
 
     @ManyToOne
     @JoinColumn(name = "event_id")
-    private Event event;
+    private Events event;
 }

@@ -2,7 +2,7 @@ package com.spring.Api.domain.address;
 
 import java.util.UUID;
 
-import com.spring.Api.domain.event.Event;
+import com.spring.Api.domain.event.Events;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,5 +31,5 @@ public class Addres {
 
     @ManyToOne
     @JoinColumn(name = "event_id")
-    private Event event;
+    private Events event;
 }

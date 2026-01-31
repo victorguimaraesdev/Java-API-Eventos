@@ -19,7 +19,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Event {
+public class Events {
     @Id
     @GeneratedValue
     private UUID id;
